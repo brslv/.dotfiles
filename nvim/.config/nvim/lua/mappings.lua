@@ -1,0 +1,17 @@
+local map = require("utils").map
+
+map("n", "<leader>q", ":q <CR>")
+map("n", "<leader>w", ":w <CR>")
+map("n", "<leader>aw", ":wa <CR>")
+map("i", "kj", "<ESC>")
+map("n", "<leader>e", ":NeoTreeFocusToggle <CR>")
+map("n", "<C-l>", "<C-w>l")
+map("n", "<C-j>", "<C-w>j")
+map("n", "<C-h>", "<C-w>h")
+map("n", "<C-k>", "<C-w>k")
+map("n", "<leader>h", ":nohlsearch <CR>", { silent = true })
+map("n", "<leader>t", ":TroubleToggle workspace_diagnostics <CR>", { silent = true })
+map("n", "<leader>ff", "<cmd>lua require('telescope.builtin').find_files()<cr>")
+map("n", "<leader>fg", "<cmd>lua require('telescope.builtin').live_grep()<cr>")
+map("n", "<leader>fb", "<cmd>lua require('telescope.builtin').buffers()<cr>")
+map("n", "<leader>fh", "<cmd>lua require('telescope.builtin').help_tags()<cr>")
