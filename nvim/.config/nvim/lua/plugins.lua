@@ -31,8 +31,17 @@ return require('packer').startup(function()
       require("trouble").setup{}
     end
   }
+  use {'nvim-telescope/telescope.nvim', requires = {{'nvim-lua/plenary.nvim'}}}
   use {
-    'nvim-telescope/telescope.nvim',
-    requires = { {'nvim-lua/plenary.nvim'} }
+    'lewis6991/gitsigns.nvim',
+    config = function()
+      require("gitsigns").setup{}
+    end
+  }
+  use {
+    'feline-nvim/feline.nvim',
+    config = function()
+      require('feline').setup{}
+    end
   }
 end)

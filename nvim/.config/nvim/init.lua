@@ -4,20 +4,33 @@ require("configs.nvim-cmp")
 require("configs.null-ls")
 require("configs.nvim-lspconfig")
 
-vim.o.background = 'dark'
+local opt = vim.opt
+local o = vim.o
+local g = vim.g
 
-vim.g.mapleader = ' '
+o.background = 'dark'
 
-vim.opt.autoindent = true
-vim.opt.cursorline = true
-vim.opt.tabstop = 2
-vim.opt.shiftwidth = 2
-vim.opt.softtabstop = 2
-vim.opt.expandtab = true
-vim.opt.ignorecase = true
-vim.opt.relativenumber = true
-vim.opt.mouse = 'a'
-vim.opt.list = true
+g.mapleader = ' '
+
+opt.clipboard = 'unnamedplus'
+opt.splitright = true
+opt.splitbelow = true
+opt.autoindent = true
+opt.cursorline = true
+opt.tabstop = 2
+opt.shiftwidth = 2
+opt.softtabstop = 2
+opt.expandtab = true
+opt.smartcase = true
+opt.ignorecase = true
+opt.termguicolors = true
+opt.relativenumber = true
+opt.mouse = 'a'
+opt.list = true
+opt.swapfile = false
+opt.showmatch = true
+opt.history = 500
+opt.lazyredraw = true
 
 vim.cmd('colorscheme tokyonight')
 require("mappings")
