@@ -37,6 +37,7 @@ opt.undofile = true
 opt.undodir = os.getenv('HOME') .. '/.vimundo/undo'
 
 vim.cmd('colorscheme tokyonight')
+vim.cmd("let &viminfo .= '$HOME/.viminfo'")
 
 require("mappings")
 require("configs.feline")
