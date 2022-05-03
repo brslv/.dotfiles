@@ -39,4 +39,7 @@ return require('packer').startup(function()
     end
   }
   use {'feline-nvim/feline.nvim'}
+  use {'xiyaowong/nvim-transparent'}
+  use {'yamatsum/nvim-cursorline'}
+  use {'tpope/vim-fugitive'}
 end)

@@ -3,6 +3,8 @@ require("nvim-lsp-installer").setup{}
 require("configs.nvim-cmp")
 require("configs.null-ls")
 require("configs.nvim-lspconfig")
+require("configs.nvim-transparent")
+require("configs.nvim-cursorline")
 
 local opt = vim.opt
 local o = vim.o

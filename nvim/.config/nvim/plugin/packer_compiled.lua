@@ -120,6 +120,11 @@ _G.packer_plugins = {
     path = "/Users/bgrigorov/.local/share/nvim/site/pack/packer/start/nvim-cmp",
     url = "https://github.com/hrsh7th/nvim-cmp"
   },
+  ["nvim-cursorline"] = {
+    loaded = true,
+    path = "/Users/bgrigorov/.local/share/nvim/site/pack/packer/start/nvim-cursorline",
+    url = "https://github.com/yamatsum/nvim-cursorline"
+  },
   ["nvim-lsp-installer"] = {
     loaded = true,
     path = "/Users/bgrigorov/.local/share/nvim/site/pack/packer/start/nvim-lsp-installer",
@@ -129,6 +134,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/bgrigorov/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
     url = "https://github.com/neovim/nvim-lspconfig"
+  },
+  ["nvim-transparent"] = {
+    loaded = true,
+    path = "/Users/bgrigorov/.local/share/nvim/site/pack/packer/start/nvim-transparent",
+    url = "https://github.com/xiyaowong/nvim-transparent"
   },
   ["nvim-treesitter"] = {
     loaded = true,
@@ -170,6 +180,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/bgrigorov/.local/share/nvim/site/pack/packer/start/vim-closer",
     url = "https://github.com/rstacruz/vim-closer"
+  },
+  ["vim-fugitive"] = {
+    loaded = true,
+    path = "/Users/bgrigorov/.local/share/nvim/site/pack/packer/start/vim-fugitive",
+    url = "https://github.com/tpope/vim-fugitive"
   }
 }
 
