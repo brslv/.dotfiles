@@ -38,10 +38,5 @@ return require('packer').startup(function()
       require("gitsigns").setup{}
     end
   }
-  use {
-    'feline-nvim/feline.nvim',
-    config = function()
-      require('feline').setup{}
-    end
-  }
+  use {'feline-nvim/feline.nvim'}
 end)

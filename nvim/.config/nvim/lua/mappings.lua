@@ -15,3 +15,4 @@ map("n", "<leader>ff", "<cmd>lua require('telescope.builtin').find_files({ hidde
 map("n", "<leader>fg", "<cmd>lua require('telescope.builtin').live_grep()<cr>")
 map("n", "<leader>fb", "<cmd>lua require('telescope.builtin').buffers()<cr>")
 map("n", "<leader>fh", "<cmd>lua require('telescope.builtin').help_tags()<cr>")
+map("n", "<leader>rv", ":source $MYVIMRC<cr>", { silent = true })
