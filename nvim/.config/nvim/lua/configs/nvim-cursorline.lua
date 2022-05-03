@@ -7,7 +7,7 @@ require('nvim-cursorline').setup {
   cursorword = {
     enable = true,
     min_length = 3,
-    hl = { underline = true },
+    hl = { underline = false, bg = "Teal", fg = "White" },
   }
 }
 
