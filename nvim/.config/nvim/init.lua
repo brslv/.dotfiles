@@ -5,6 +5,7 @@ require("configs.null-ls")
 require("configs.nvim-lspconfig")
 require("configs.nvim-transparent")
 require("configs.nvim-cursorline")
+require("configs.nvim-treesitter")
 
 local opt = vim.opt
 local o = vim.o
