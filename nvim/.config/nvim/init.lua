@@ -36,6 +36,7 @@ opt.history = 500
 opt.lazyredraw = true
 opt.undofile = true
 opt.undodir = os.getenv('HOME') .. '/.vimundo/undo'
+opt.diffopt:append({ 'vertical' })
 
 vim.cmd('colorscheme tokyonight')
 vim.cmd("let &viminfo .= '$HOME/.viminfo'")

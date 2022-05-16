@@ -1,6 +1,5 @@
 return require('packer').startup(function()
   use 'wbthomason/packer.nvim'
-  use 'rstacruz/vim-closer'
   use {'folke/tokyonight.nvim'}
   use {'neovim/nvim-lspconfig', 'williamboman/nvim-lsp-installer', }
   use {'hrsh7th/cmp-nvim-lsp'}
