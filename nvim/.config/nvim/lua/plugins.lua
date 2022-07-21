@@ -1,7 +1,13 @@
 return require('packer').startup(function()
   use 'wbthomason/packer.nvim'
   use {'folke/tokyonight.nvim'}
-  use {'neovim/nvim-lspconfig', 'williamboman/nvim-lsp-installer', }
+
+  -- colors
+  use {'macguirerintoul/night_owl_light.vim'}
+  use {'cormacrelf/vim-colors-github'}
+  use {'arcticicestudio/nord-vim'}
+
+  use {'neovim/nvim-lspconfig', 'williamboman/nvim-lsp-installer'}
   use {'hrsh7th/cmp-nvim-lsp'}
   use {'hrsh7th/cmp-buffer'}
   use {'hrsh7th/cmp-path'}

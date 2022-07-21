@@ -11,11 +11,12 @@ local opt = vim.opt
 local o = vim.o
 local g = vim.g
 
-o.background = 'dark'
+o.termguicolors = true
 
+g.background = 'dark'
 g.mapleader = ' '
-g.termguicolors = true
 
+opt.syntax = "ON"
 opt.clipboard = 'unnamedplus'
 opt.splitright = true
 opt.splitbelow = true
@@ -38,7 +39,7 @@ opt.undofile = true
 opt.undodir = os.getenv('HOME') .. '/.vimundo/undo'
 opt.diffopt:append({ 'vertical' })
 
-vim.cmd('colorscheme tokyonight')
+vim.cmd('colorscheme nord')
 vim.cmd("let &viminfo .= '$HOME/.viminfo'")
 
 require("mappings")

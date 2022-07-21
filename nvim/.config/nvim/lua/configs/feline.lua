@@ -17,6 +17,7 @@ if not status_ok then
 end
 
 -- Set colorscheme (from core/colors.lua/colorscheme_name)
+vim.o.termguicolors = true
 local colors = require('colors').base_colors
 
 local vi_mode_colors = {

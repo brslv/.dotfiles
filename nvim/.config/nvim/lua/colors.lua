@@ -1,7 +1,7 @@
 local M = {}
 
 M.base_colors = {
-  bg = '#25283A',
+  bg = '#272E37',
   fg = '#b2bbcc',
   pink = '#c678dd',
   green = '#98c379',

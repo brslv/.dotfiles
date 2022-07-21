@@ -105,6 +105,16 @@ _G.packer_plugins = {
     path = "/Users/bgrigorov/.local/share/nvim/site/pack/packer/start/neo-tree.nvim",
     url = "https://github.com/nvim-neo-tree/neo-tree.nvim"
   },
+  ["night_owl_light.vim"] = {
+    loaded = true,
+    path = "/Users/bgrigorov/.local/share/nvim/site/pack/packer/start/night_owl_light.vim",
+    url = "https://github.com/macguirerintoul/night_owl_light.vim"
+  },
+  ["nord-vim"] = {
+    loaded = true,
+    path = "/Users/bgrigorov/.local/share/nvim/site/pack/packer/start/nord-vim",
+    url = "https://github.com/arcticicestudio/nord-vim"
+  },
   ["nui.nvim"] = {
     loaded = true,
     path = "/Users/bgrigorov/.local/share/nvim/site/pack/packer/start/nui.nvim",
@@ -175,6 +185,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/bgrigorov/.local/share/nvim/site/pack/packer/start/trouble.nvim",
     url = "https://github.com/folke/trouble.nvim"
+  },
+  ["vim-colors-github"] = {
+    loaded = true,
+    path = "/Users/bgrigorov/.local/share/nvim/site/pack/packer/start/vim-colors-github",
+    url = "https://github.com/cormacrelf/vim-colors-github"
   },
   ["vim-fugitive"] = {
     loaded = true,
