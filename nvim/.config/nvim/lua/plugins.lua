@@ -1,6 +1,7 @@
 return require('packer').startup(function()
   use 'wbthomason/packer.nvim'
   use {'folke/tokyonight.nvim'}
+  use {'github/copilot.vim'}
 
   -- colors
   use {'macguirerintoul/night_owl_light.vim'}
