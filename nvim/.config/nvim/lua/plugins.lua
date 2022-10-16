@@ -49,4 +49,5 @@ return require('packer').startup(function()
   use {'xiyaowong/nvim-transparent'}
   use {'yamatsum/nvim-cursorline'}
   use {'tpope/vim-fugitive'}
+  use {'pantharshit00/vim-prisma'}
 end)

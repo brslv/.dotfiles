@@ -13,6 +13,10 @@ local o = vim.o
 local g = vim.g
 
 o.termguicolors = true
+o.ls = 0
+o.ch = 0
+
+vim.opt.winbar = '%f'
 
 g.background = 'dark'
 g.mapleader = ' '
@@ -41,7 +45,6 @@ opt.undodir = os.getenv('HOME') .. '/.vimundo/undo'
 opt.diffopt:append({ 'vertical' })
 
 vim.cmd('colorscheme nord')
-vim.cmd("let &viminfo .= '$HOME/.viminfo'")
 
 require("mappings")
 require("configs.feline")
