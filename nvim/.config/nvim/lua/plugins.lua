@@ -50,4 +50,5 @@ return require('packer').startup(function()
   use {'yamatsum/nvim-cursorline'}
   use {'tpope/vim-fugitive'}
   use {'pantharshit00/vim-prisma'}
+  use {'tpope/vim-surround'}
 end)
