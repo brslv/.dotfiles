@@ -51,4 +51,5 @@ return require('packer').startup(function()
   use {'tpope/vim-fugitive'}
   use {'pantharshit00/vim-prisma'}
   use {'tpope/vim-surround'}
+  use {'nvim-treesitter/nvim-treesitter-context'}
 end)
