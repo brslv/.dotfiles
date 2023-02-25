@@ -12,3 +12,4 @@ local function map(mode, lhs, rhs, opts)
 end
 
 map("i", "kj", "<Esc>", { desc = "Escape" })
+map("n", "<leader>r", ":noh<CR>", { desc = "Remove highlights" })
