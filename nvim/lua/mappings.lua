@@ -1,5 +1,7 @@
 local map = require("utils").map
 
+map("n", "<leader>gg", ":G <CR>")
+map("n", "<leader>bd", ":bd <CR>")
 map("n", "<leader>q", ":q <CR>")
 map("n", "<leader>w", ":w <CR>")
 map("n", "<leader>aw", ":wa <CR>")
