@@ -46,6 +46,8 @@ opt.lazyredraw = true
 opt.undofile = true
 opt.undodir = os.getenv('HOME') .. '/.vimundo/undo'
 opt.diffopt:append({ 'vertical' })
+opt.foldmethod = 'indent'
+opt.foldlevel = 99
 
 vim.cmd('colorscheme gruvbox')
 
