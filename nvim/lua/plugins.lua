@@ -47,7 +47,6 @@ return require('packer').startup(function()
       require("gitsigns").setup{}
     end
   }
-  use {'feline-nvim/feline.nvim'}
   use {'yamatsum/nvim-cursorline'}
   use {'tpope/vim-fugitive'}
   use {'pantharshit00/vim-prisma'}

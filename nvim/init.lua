@@ -15,8 +15,8 @@ local g = vim.g
 g.gruvbox_contrast_dark = "soft"
 g.gruvbox_contrast_light = "soft"
 
-
 o.termguicolors = true
+o.ls = 2
 o.ch = 0
 
 vim.opt.winbar = '%f'
@@ -50,4 +50,3 @@ opt.diffopt:append({ 'vertical' })
 vim.cmd('colorscheme gruvbox')
 
 require("mappings")
-require("configs.feline")
