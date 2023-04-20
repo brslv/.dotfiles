@@ -7,6 +7,7 @@ require("configs.nvim-cursorline")
 require("configs.nvim-treesitter")
 require("configs.nvim-telescope")
 require("configs.nvim-treesitter-context")
+require("configs.nvim-neo-tree")
 
 local opt = vim.opt
 local o = vim.o

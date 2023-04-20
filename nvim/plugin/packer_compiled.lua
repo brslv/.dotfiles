@@ -49,8 +49,8 @@ local function save_profiles(threshold)
 end
 
 time([[Luarocks path setup]], true)
-local package_path_str = "/Users/borislav/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?.lua;/Users/borislav/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?/init.lua;/Users/borislav/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?.lua;/Users/borislav/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?/init.lua"
-local install_cpath_pattern = "/Users/borislav/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/lua/5.1/?.so"
+local package_path_str = "/Users/bgrigorov/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?.lua;/Users/bgrigorov/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?/init.lua;/Users/bgrigorov/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?.lua;/Users/bgrigorov/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?/init.lua"
+local install_cpath_pattern = "/Users/bgrigorov/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/lua/5.1/?.so"
 if not string.find(package.path, package_path_str, 1, true) then
   package.path = package.path .. ';' .. package_path_str
 end
@@ -76,154 +76,149 @@ time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
   ["cmp-buffer"] = {
     loaded = true,
-    path = "/Users/borislav/.local/share/nvim/site/pack/packer/start/cmp-buffer",
+    path = "/Users/bgrigorov/.local/share/nvim/site/pack/packer/start/cmp-buffer",
     url = "https://github.com/hrsh7th/cmp-buffer"
   },
   ["cmp-cmdline"] = {
     loaded = true,
-    path = "/Users/borislav/.local/share/nvim/site/pack/packer/start/cmp-cmdline",
+    path = "/Users/bgrigorov/.local/share/nvim/site/pack/packer/start/cmp-cmdline",
     url = "https://github.com/hrsh7th/cmp-cmdline"
   },
   ["cmp-nvim-lsp"] = {
     loaded = true,
-    path = "/Users/borislav/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
+    path = "/Users/bgrigorov/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
   },
   ["cmp-path"] = {
     loaded = true,
-    path = "/Users/borislav/.local/share/nvim/site/pack/packer/start/cmp-path",
+    path = "/Users/bgrigorov/.local/share/nvim/site/pack/packer/start/cmp-path",
     url = "https://github.com/hrsh7th/cmp-path"
   },
   ["copilot.vim"] = {
     loaded = true,
-    path = "/Users/borislav/.local/share/nvim/site/pack/packer/start/copilot.vim",
+    path = "/Users/bgrigorov/.local/share/nvim/site/pack/packer/start/copilot.vim",
     url = "https://github.com/github/copilot.vim"
-  },
-  ["feline.nvim"] = {
-    loaded = true,
-    path = "/Users/borislav/.local/share/nvim/site/pack/packer/start/feline.nvim",
-    url = "https://github.com/feline-nvim/feline.nvim"
   },
   ["gitsigns.nvim"] = {
     config = { "\27LJ\2\n:\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\rgitsigns\frequire\0" },
     loaded = true,
-    path = "/Users/borislav/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
+    path = "/Users/bgrigorov/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
     url = "https://github.com/lewis6991/gitsigns.nvim"
   },
   gruvbox = {
     loaded = true,
-    path = "/Users/borislav/.local/share/nvim/site/pack/packer/start/gruvbox",
+    path = "/Users/bgrigorov/.local/share/nvim/site/pack/packer/start/gruvbox",
     url = "https://github.com/morhetz/gruvbox"
   },
   ["mason.nvim"] = {
     loaded = true,
-    path = "/Users/borislav/.local/share/nvim/site/pack/packer/start/mason.nvim",
+    path = "/Users/bgrigorov/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
   },
   ["neo-tree.nvim"] = {
     loaded = true,
-    path = "/Users/borislav/.local/share/nvim/site/pack/packer/start/neo-tree.nvim",
+    path = "/Users/bgrigorov/.local/share/nvim/site/pack/packer/start/neo-tree.nvim",
     url = "https://github.com/nvim-neo-tree/neo-tree.nvim"
   },
   ["night_owl_light.vim"] = {
     loaded = true,
-    path = "/Users/borislav/.local/share/nvim/site/pack/packer/start/night_owl_light.vim",
+    path = "/Users/bgrigorov/.local/share/nvim/site/pack/packer/start/night_owl_light.vim",
     url = "https://github.com/macguirerintoul/night_owl_light.vim"
   },
   ["nord-vim"] = {
     loaded = true,
-    path = "/Users/borislav/.local/share/nvim/site/pack/packer/start/nord-vim",
+    path = "/Users/bgrigorov/.local/share/nvim/site/pack/packer/start/nord-vim",
     url = "https://github.com/arcticicestudio/nord-vim"
   },
   ["nui.nvim"] = {
     loaded = true,
-    path = "/Users/borislav/.local/share/nvim/site/pack/packer/start/nui.nvim",
+    path = "/Users/bgrigorov/.local/share/nvim/site/pack/packer/start/nui.nvim",
     url = "https://github.com/MunifTanjim/nui.nvim"
   },
   ["null-ls.nvim"] = {
     loaded = true,
-    path = "/Users/borislav/.local/share/nvim/site/pack/packer/start/null-ls.nvim",
+    path = "/Users/bgrigorov/.local/share/nvim/site/pack/packer/start/null-ls.nvim",
     url = "https://github.com/jose-elias-alvarez/null-ls.nvim"
   },
   ["nvim-cmp"] = {
     loaded = true,
-    path = "/Users/borislav/.local/share/nvim/site/pack/packer/start/nvim-cmp",
+    path = "/Users/bgrigorov/.local/share/nvim/site/pack/packer/start/nvim-cmp",
     url = "https://github.com/hrsh7th/nvim-cmp"
   },
   ["nvim-cursorline"] = {
     loaded = true,
-    path = "/Users/borislav/.local/share/nvim/site/pack/packer/start/nvim-cursorline",
+    path = "/Users/bgrigorov/.local/share/nvim/site/pack/packer/start/nvim-cursorline",
     url = "https://github.com/yamatsum/nvim-cursorline"
   },
   ["nvim-lspconfig"] = {
     loaded = true,
-    path = "/Users/borislav/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
+    path = "/Users/bgrigorov/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
     url = "https://github.com/neovim/nvim-lspconfig"
   },
   ["nvim-treesitter"] = {
     loaded = true,
-    path = "/Users/borislav/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
+    path = "/Users/bgrigorov/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
   },
   ["nvim-treesitter-context"] = {
     loaded = true,
-    path = "/Users/borislav/.local/share/nvim/site/pack/packer/start/nvim-treesitter-context",
+    path = "/Users/bgrigorov/.local/share/nvim/site/pack/packer/start/nvim-treesitter-context",
     url = "https://github.com/nvim-treesitter/nvim-treesitter-context"
   },
   ["nvim-web-devicons"] = {
     loaded = true,
-    path = "/Users/borislav/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
+    path = "/Users/bgrigorov/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
     url = "https://github.com/kyazdani42/nvim-web-devicons"
   },
   ["packer.nvim"] = {
     loaded = true,
-    path = "/Users/borislav/.local/share/nvim/site/pack/packer/start/packer.nvim",
+    path = "/Users/bgrigorov/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
   },
   ["plenary.nvim"] = {
     loaded = true,
-    path = "/Users/borislav/.local/share/nvim/site/pack/packer/start/plenary.nvim",
+    path = "/Users/bgrigorov/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
   ["telescope.nvim"] = {
     loaded = true,
-    path = "/Users/borislav/.local/share/nvim/site/pack/packer/start/telescope.nvim",
+    path = "/Users/bgrigorov/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
   },
   ["tokyonight.nvim"] = {
     loaded = true,
-    path = "/Users/borislav/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
+    path = "/Users/bgrigorov/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
     url = "https://github.com/folke/tokyonight.nvim"
   },
   ["trouble.nvim"] = {
     config = { "\27LJ\2\n9\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\ftrouble\frequire\0" },
     loaded = true,
-    path = "/Users/borislav/.local/share/nvim/site/pack/packer/start/trouble.nvim",
+    path = "/Users/bgrigorov/.local/share/nvim/site/pack/packer/start/trouble.nvim",
     url = "https://github.com/folke/trouble.nvim"
   },
   ["vim-colors-github"] = {
     loaded = true,
-    path = "/Users/borislav/.local/share/nvim/site/pack/packer/start/vim-colors-github",
+    path = "/Users/bgrigorov/.local/share/nvim/site/pack/packer/start/vim-colors-github",
     url = "https://github.com/cormacrelf/vim-colors-github"
   },
   ["vim-fugitive"] = {
     loaded = true,
-    path = "/Users/borislav/.local/share/nvim/site/pack/packer/start/vim-fugitive",
+    path = "/Users/bgrigorov/.local/share/nvim/site/pack/packer/start/vim-fugitive",
     url = "https://github.com/tpope/vim-fugitive"
   },
   ["vim-prisma"] = {
     loaded = true,
-    path = "/Users/borislav/.local/share/nvim/site/pack/packer/start/vim-prisma",
+    path = "/Users/bgrigorov/.local/share/nvim/site/pack/packer/start/vim-prisma",
     url = "https://github.com/pantharshit00/vim-prisma"
   },
   ["vim-surround"] = {
     loaded = true,
-    path = "/Users/borislav/.local/share/nvim/site/pack/packer/start/vim-surround",
+    path = "/Users/bgrigorov/.local/share/nvim/site/pack/packer/start/vim-surround",
     url = "https://github.com/tpope/vim-surround"
   },
   ["vim-vsnip"] = {
     loaded = true,
-    path = "/Users/borislav/.local/share/nvim/site/pack/packer/start/vim-vsnip",
+    path = "/Users/bgrigorov/.local/share/nvim/site/pack/packer/start/vim-vsnip",
     url = "https://github.com/hrsh7th/vim-vsnip"
   }
 }
