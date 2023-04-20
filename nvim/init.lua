@@ -3,7 +3,6 @@ require("mason").setup()
 require("configs.nvim-cmp")
 require("configs.null-ls")
 require("configs.nvim-lspconfig")
-require("configs.nvim-transparent")
 require("configs.nvim-cursorline")
 require("configs.nvim-treesitter")
 require("configs.nvim-telescope")
@@ -13,8 +12,11 @@ local opt = vim.opt
 local o = vim.o
 local g = vim.g
 
+g.gruvbox_contrast_dark = "soft"
+g.gruvbox_contrast_light = "soft"
+
+
 o.termguicolors = true
-o.ls = 0
 o.ch = 0
 
 vim.opt.winbar = '%f'
@@ -45,7 +47,7 @@ opt.undofile = true
 opt.undodir = os.getenv('HOME') .. '/.vimundo/undo'
 opt.diffopt:append({ 'vertical' })
 
-vim.cmd('colorscheme nord')
+vim.cmd('colorscheme gruvbox')
 
 require("mappings")
 require("configs.feline")

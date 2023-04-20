@@ -1,5 +1,6 @@
 return require('packer').startup(function()
   use 'wbthomason/packer.nvim'
+  use {'morhetz/gruvbox'}
   use {'folke/tokyonight.nvim'}
   use {'github/copilot.vim'}
 
@@ -47,7 +48,6 @@ return require('packer').startup(function()
     end
   }
   use {'feline-nvim/feline.nvim'}
-  use {'xiyaowong/nvim-transparent'}
   use {'yamatsum/nvim-cursorline'}
   use {'tpope/vim-fugitive'}
   use {'pantharshit00/vim-prisma'}
