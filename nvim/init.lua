@@ -8,6 +8,7 @@ require("configs.nvim-treesitter")
 require("configs.nvim-telescope")
 require("configs.nvim-treesitter-context")
 require("configs.nvim-neo-tree")
+require("configs.nvim-easymotion")
 
 local opt = vim.opt
 local o = vim.o
@@ -49,6 +50,7 @@ opt.undodir = os.getenv('HOME') .. '/.vimundo/undo'
 opt.diffopt:append({ 'vertical' })
 opt.foldmethod = 'indent'
 opt.foldlevel = 99
+opt.textwidth = 120
 
 vim.cmd('colorscheme gruvbox')
 

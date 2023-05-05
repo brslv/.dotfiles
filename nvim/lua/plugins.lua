@@ -1,8 +1,10 @@
 return require('packer').startup(function()
   use 'wbthomason/packer.nvim'
+  use {'mustache/vim-mustache-handlebars'}
   use {'morhetz/gruvbox'}
   use {'folke/tokyonight.nvim'}
   use {'github/copilot.vim'}
+  use {'easymotion/vim-easymotion'}
 
   -- colors
   use {'macguirerintoul/night_owl_light.vim'}
