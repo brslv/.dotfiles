@@ -51,6 +51,7 @@ opt.diffopt:append({ 'vertical' })
 opt.foldmethod = 'indent'
 opt.foldlevel = 99
 opt.textwidth = 120
+opt.cmdheight = 2
 
 vim.cmd('colorscheme gruvbox')
 
