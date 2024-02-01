@@ -9,7 +9,7 @@ o.termguicolors = true
 o.ls = 2
 o.ch = 0
 
-vim.opt.winbar = '%f'
+vim.opt.winbar = "%f"
 opt.syntax = "ON"
 opt.autoindent = true
 opt.cursorline = true
@@ -20,17 +20,18 @@ opt.expandtab = true
 opt.smartcase = true
 opt.ignorecase = true
 opt.relativenumber = true
-opt.mouse = 'a'
+opt.mouse = "a"
 opt.swapfile = false
 opt.showmatch = true
 opt.history = 500
 opt.lazyredraw = true
 opt.undofile = true
-opt.undodir = os.getenv('HOME') .. '/.vimundo/undo'
-opt.diffopt:append({ 'vertical' })
-opt.foldmethod = 'indent'
+opt.undodir = os.getenv("HOME") .. "/.vimundo/undo"
+opt.diffopt:append({ "vertical" })
+opt.foldmethod = "indent"
 opt.foldlevel = 99
 opt.textwidth = 120
 opt.cmdheight = 2
 
+opt.background = "dark"
 vim.cmd("colorscheme gruvbox")
