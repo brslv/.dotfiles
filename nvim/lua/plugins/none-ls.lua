@@ -11,7 +11,6 @@ return {
           "typescriptreact",
           "css",
           "scss",
-          "html",
           "json",
           "yaml",
           "markdown",
