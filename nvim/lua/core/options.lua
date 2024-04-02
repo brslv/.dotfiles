@@ -33,5 +33,5 @@ opt.foldlevel = 99
 opt.textwidth = 120
 opt.cmdheight = 2
 
-opt.background = "light"
+opt.background = "dark"
 vim.cmd("colorscheme tokyonight")
