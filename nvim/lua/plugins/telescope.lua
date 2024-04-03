@@ -9,9 +9,10 @@ return {
   config = function()
     local telescope = require("telescope")
     local actions = require("telescope.actions")
-
     telescope.setup({
+
       defaults = {
+        wrap_results = true,
         path_display = { "truncate " },
         mappings = {
           i = {
@@ -22,6 +23,9 @@ return {
         },
       },
       pickers = {
+        defaults = {
+          theme = "dropdown",
+        },
         find_files = {
           theme = "dropdown",
         },
@@ -37,6 +41,9 @@ return {
         resume = {
           theme = "dropdown",
         },
+        marks = {
+          theme = "dropdown",
+        },
       },
     })
 
@@ -50,5 +57,6 @@ return {
     keymap.set("n", "<leader>fs", "<cmd>Telescope live_grep<cr>", { desc = "Find string in cwd" })
     keymap.set("n", "<leader>fc", "<cmd>Telescope grep_string<cr>", { desc = "Find string under cursor in cwd" })
     keymap.set("n", "<Leader>fd", "<cmd>Telescope resume<cr>", { desc = "Resume previous search" })
+    keymap.set("n", "<Leader>fm", "<cmd>Telescope marks<cr>", { desc = "Marks" })
   end,
 }
