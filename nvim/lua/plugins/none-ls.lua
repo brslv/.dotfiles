@@ -19,7 +19,7 @@ return {
           "txt",
         },
       }),
-      null_ls.builtins.diagnostics.eslint_d.with({}),
+      -- null_ls.builtins.diagnostics.eslint_d.with({}),
       null_ls.builtins.formatting.stylua.with({
         filetypes = {
           "lua",
