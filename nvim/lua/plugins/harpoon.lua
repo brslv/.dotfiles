@@ -22,7 +22,10 @@ return {
     vim.keymap.set("n", "<leader>de", function()
       harpoon:list():select(2)
     end)
-    vim.keymap.set("n", "<leader>ds", function()
+    vim.keymap.set("n", "<leader>dr", function()
+      harpoon:list():select(3)
+    end)
+    vim.keymap.set("n", "<leader>df", function()
       harpoon:list():select(3)
     end)
 
